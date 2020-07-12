@@ -1,0 +1,104 @@
+include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
+
+.container#page-introduccion
+
+    .header-ecored
+        h2 1.3 Do while
+
+
+    .jumbotron.bg-white.mb-0
+
+        p.mb-5 El ciclo <b>do while</b> también es utilizado para ejecutar repetidamente unas instrucciones, difiere del <b>while</b> en el hecho de que con <b>do while</b> el bloque de instrucciones siempre va a ser ejecutado al menos una vez, dado que primero se lleva a cabo dicha ejecución y posteriormente se evalúa la condición; si se cumple, continúan ejecutándose las instrucciones hasta que no sea así, y si no se cumple, no se ejecutan más.
+
+
+
+        p La sintaxis del ciclo <b>do while</b> es la siguiente:
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/dowhile.png").img-fluid
+
+        p.mt-5 La condición adquiere un valor booleano que, al ser verdadero, se continúan ejecutando las sentencias que hay dentro de las llaves, y si es falso, pasa a la primera instrucción que se encuentre por fuera del <b>do while</b>.
+
+        p Se ilustra a continuación, el proceso efectuado cuando se utiliza un bucle <b>do while</b>.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/bucle-dowhile.png").img-fluid
+
+
+        .subtitulo-guion.my-5
+            h3 Ejemplos
+
+        
+        .jumbotron.bg-brand-color-dark-secondary
+            p.mb-0 
+                strong a. 
+                | Solicitar al usuario que digite un número del 1 al 10 y mostrarlo en pantalla; se debe validar que el número ingresado si se encuentra dentro del rango indicado, en caso de que no lo esté, se pide nuevamente.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-1-1.png").img-fluid
+
+        p.text-center  Solución ejemplo a - do while
+
+        p.my-5 Se declara la variable número que recibe el dato ingresado por el usuario, el do indica que se pida dicho dato al usuario, y en el while se valida si cumple con el rango requerido; cuando no lo cumple, se pide nuevamente el número, y cuando lo cumple, se muestra el número ingresado.
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong b. 
+                | Se requiere un programa que solicite al usuario el ingreso de varios números y que calcule el promedio de estos cuando el número ingresado sea 0, dicho número no debe ser tenido en cuenta en la cantidad de datos para promediar.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-2-1.png").img-fluid
+
+        p.text-center Código ejemplo b – do while
+
+        p.my-5 En la siguiente figura se observa la ejecución del ejemplo anterior.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-2-2.png").img-fluid
+
+        p.text-center Ejecución código ejemplo b – while
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong c. 
+                | Se necesita un programa que solicite notas de estudiantes hasta que el valor ingresado sea 0, y posterior a ello muestre en pantalla cuántos obtuvieron una nota igual o superior a 6, y cuántos menor.
+
+
+        p.my-5 Se declara la variable nota que recibe las notas ingresadas por el usuario y se utilizan dos contadores llamados cant1 y cant2 para almacenar el total de estudiantes que obtuvieron notas inferiores y superiores a 6.
+
+        p En el do se solicita el ingreso de cada nota y por medio de un if se suma en cada contador respectivo la nota que haya sido ingresada, y en el while se indica que el ciclo debe terminar cuando se ingrese como nota el valor cero.
+
+        p Finalmente se muestran los resultados que indican cuántos estudiantes obtuvieron notas superiores e inferiores a 6.
+
+        p En la siguiente figura se observa el código de este ejemplo y luego su correspondiente ejecución.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-3-1.png").img-fluid
+
+        p.text-center Código ejemplo c – do while
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-3-2.png").img-fluid
+
+        p.text-center Ejecución ejemplo c – do while
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong d. 
+                | Se desea un programa que solicite al usuario la contraseña de acceso y únicamente le dé la bienvenida al sistema cuando esta sea correcta.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-3/ej-4-1.png").img-fluid
+
+        p.text-center Solución ejemplo d - do while

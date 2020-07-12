@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "path": "pages/introduccion.html"
+  }, 
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "ciclos-repeticion",
+    "title": "1. Ciclos de repetición",
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "for",
+        "title": "1.1 For",
+        "path": "pages/tema-11.html"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "while",
+        "title": "1.2 While",
+        "path": "pages/tema-12.html"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "do-while",
+        "title": "1.3 Do while",
+        "path": "pages/tema-13.html"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }   
+]

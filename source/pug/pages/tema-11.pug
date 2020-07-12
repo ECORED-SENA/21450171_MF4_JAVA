@@ -1,0 +1,95 @@
+include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
+
+.container#page-introduccion
+
+    .header-ecored
+        h2 1.1 For
+
+
+    .jumbotron.bg-white.mb-0
+
+        p.mb-5 El ciclo de repetición <b>for</b> permite la ejecución de una sentencia o bloque de sentencias un número determinado de veces; se utiliza normalmente en aquellos casos en los que, desde el comienzo, se conoce cuantas veces se desea repetir la ejecución del bloque de instrucciones.
+
+        p La sintaxis del ciclo <b>for</b> es la siguiente:
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/for.png").img-fluid
+
+        p.mt-5 En la primera parte del for se inicializa la variable que va a controlar el ciclo y con la que se indica cuál va a ser el valor con que dicho ciclo comienza.
+
+        p En la segunda parte se analiza la condición que debe cumplirse para que el bloque de sentencias continúe ejecutándose; en el momento que la condición deja de cumplirse, el bloque de sentencias no se ejecuta más.
+
+        p Finalmente está la parte de modificación de la variable de control, que es la que indica si el valor de la variable inicializada debe aumentar o disminuir y con qué frecuencia, de uno en uno, de dos en dos, ente otros; este elemento es de gran importancia, ya que si el valor de la variable de control no cambia, el análisis de la condición siempre va a devolver el mismo resultado, lo cual llevaría a la ejecución de un ciclo infinito que en la mayoría de los casos ocupa recursos del sistema y lo bloquea.
+
+        p Se ilustra a continuación, el proceso efectuado cuando se utiliza un bucle for:
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/bucle-for.png").img-fluid
+
+
+        .subtitulo-guion.my-5
+            h3 Ejemplos
+
+        
+        .jumbotron.bg-brand-color-dark-secondary
+            p.mb-0 
+                strong a. 
+                | Se requiere escribir cinco veces el texto: Ciclos de Repetición.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-1/ej-1-1.png").img-fluid
+
+        p.text-center Código y ejecución ejemplo a – for
+
+
+        p.my-5 El ejemplo anterior puede realizarse sin el uso del for de la siguiente manera:
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-1/ej-1-2.png").img-fluid
+
+        p.text-center Código ejemplo a sin utilizar for
+
+        p.my-5  El resultado devuelto sería exactamente igual, nótese la mejora en la estructura del código, evitando la escritura repetitiva de instrucciones.
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong b. 
+                | Se requiere mostrar los números pares entre el 100 y el 120.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-1/ej-2-1.png").img-fluid
+
+        p.text-center Código y ejecución ejemplo b – for
+
+        p.my-5 Dado que el ejercicio solicita los números pares desde el 100, ese es el valor de inicialización de la variable del for, teniendo en cuenta que únicamente los solicita hasta el 120, se usa dicho valor como finalización del for y como son números pares, el incremento debe ir de 2 en 2, para lo cual se utiliza i+=2 que es lo mismo que decir i = i + 2.
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong c. 
+                | Se desea mostrar en pantalla un conteo regresivo del diez al cero.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-1/ej-3-1.png").img-fluid
+
+        p.text-center Código ejemplo c – for
+
+        p.my-5 Dado que el conteo es regresivo, la única diferencia consiste en que la variable en la tercera parte del for, en lugar de ser incrementada, se le efectúa decremento utilizando el operador - -.
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong d. 
+                | Se desea simular el funcionamiento de un reloj por medio de ciclos for anidados.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-1/ej-4-1.png").img-fluid
+
+        p.text-center Código ejemplo d – for
+
+
+        p.my-5 Lo que ocurre con el <b>for</b> anidado es que se efectúa un conteo de 0 a 59 para las variables <b>b</b> y <b>c</b> que están simulando los minutos y los segundos, y de 0 a 23 para la variable <b>a</b> que maneja las horas; de este modo se van mostrando dichas horas, desde las 0:0:0 hasta las 23:59:59.
+
+        p De acuerdo con la ubicación de los <b>for</b>, se observan primero las horas, luego los minutos y finalmente los segundos.    

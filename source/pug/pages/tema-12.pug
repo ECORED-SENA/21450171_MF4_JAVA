@@ -1,0 +1,110 @@
+include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
+
+.container#page-introduccion
+
+    .header-ecored
+        h2 1.2 While
+
+
+    .jumbotron.bg-white.mb-0
+
+        p.mb-5 El bucle <b>while</b> permite la ejecución de un bloque de instrucciones siempre y cuando la condición analizada sea verdadera, si en el análisis inicial la condición es falsa, el bloque de instrucciones no se ejecuta nunca. Es importante que dentro de dicho bloque de instrucciones se incluya una que haga variar el resultado de la condición para que esta pueda llegar a ser verdadera y se ejecuten las instrucciones, o bien, pueda convertirse en falsa y que el ciclo finalice.
+
+
+        p La sintaxis del ciclo <b>while</b> es la siguiente:
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/while.png").img-fluid
+
+        p.mt-5 Se puede apreciar que la condición adquiere un valor booleano que, al ser verdadero, se ingresa a las líneas de código contenidas en las llaves y se ejecutan, y si es falso, pasa a la primera instrucción que se encuentre por fuera del <b>while</b>.
+
+        p Se ilustra a continuación, el proceso efectuado cuando se utiliza un bucle while.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/while.png").img-fluid
+
+
+        .subtitulo-guion.my-5
+            h3 Ejemplos
+
+        
+        .jumbotron.bg-brand-color-dark-secondary
+            p.mb-0 
+                strong a. 
+                | Se requiere un programa que pida al usuario un número entero e imprima todos los números existentes entre 0 y dicho número.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-1-1.png").img-fluid
+
+        p.text-center Código ejemplo a – while
+
+
+        p.my-5 Se declara la variable a que hace las veces de variable de control en el while y la variable número que será el dato ingresado por el usuario; el programa entonces imprime los números desde 0, que es el valor de inicialización que se le dio a a, hasta el número indicado por el usuario, que para el ejemplo fue 4.
+
+
+ 
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong b. 
+                | Se necesita encontrar el área de una esfera solicitando al usuario que ingrese el valor del radio; en caso de que el valor ingresado sea inferior o igual a cero, se debe devolver un mensaje y pedir nuevamente el dato.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-2-1.png").img-fluid
+
+        p.text-center Código ejemplo b – while
+
+        p.my-5 Se declaran las variables radio y área, la primera es el valor ingresado por el usuario y la segunda para efectuar el cálculo cuando el valor del radio cumpla con lo indicado. 
+
+        p Si se ingresa como radio el valor 0, el programa pide nuevamente el dato, en caso contrario, el programa calcula el área; la ejecución se observa en la siguiente figura:
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-2-2.png").img-fluid
+
+        p.text-center Ejecución código ejemplo b – while
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong c. 
+                | Se requiere un programa que pida al usuario la medida en centímetros del lado de un cuadrado y calcule su área, siempre y cuando el valor ingresado sea mayor que cero; en caso de que dicha condición no se cumpla, ya no se solicitarán más valores y se debe mostrar la cantidad de áreas que han sido calculadas.
+
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-3-1.png").img-fluid
+
+        p.text-center Código ejemplo c – while
+
+
+        p.my-5 Se declaran las variables contador, lado y área; la primera va a guardar la cantidad de veces que el área sea calculada, la segunda almacena el valor ingresado por el usuario y la tercera para efectuar el cálculo respectivo, cada que el lado cumpla con lo indicado. 
+
+        p En el while se indica que siempre que el valor ingresado por el usuario sea mayor a cero, se realice el cálculo, en caso contrario, el programa sale a la instrucción que hay inmediatamente después de terminar el while e imprime la cantidad de áreas que han sido calculadas. En la siguiente figura se puede observar la ejecución de este ejemplo.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-3-2.png").img-fluid
+
+        p.text-center Ejecución código ejemplo c – while
+
+
+        .jumbotron.bg-brand-color-dark-secondary.my-6
+            p.mb-0 
+                strong d. 
+                | Se requiere un programa que solicite al usuario un número entero y muestre en pantalla la tabla de multiplicar de dicho número.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-4-1.png").img-fluid
+
+        p.text-center Código ejemplo d – while
+
+
+        p.my-5 Se declaran las variables contador, resultado y número. La primera es la variable de control del while que indica que van a mostrarse los datos de la tabla desde el 1 hasta el 10, la segunda para efectuar el cálculo respectivo, y la tercera, recibe el valor ingresado por el usuario que determina la tabla que va a ser mostrada. 
+
+        p En el while se da la instrucción que se realice el cálculo hasta 10, y posteriormente se muestra la tabla. En la siguiente figura se puede observar la ejecución de este ejemplo.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-1/tema-1-2/ej-4-2.png").img-fluid
+
+        p.text-center Ejecución código ejemplo d – while

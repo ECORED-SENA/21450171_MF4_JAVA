@@ -1,0 +1,64 @@
+<div class="page-header mb-5">
+    <div class="page-textura">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <h3 class="curso-subtitulo" id="curso-titulo-componente">Variables y estructuras de control en la programación orientada a objetos Java</h3>
+                    <h1 class="curso-titulo" id="curso-titulo-tema">Uso de ciclos de repetición en Java</h1>
+                    <div class="brand-line-primary"></div>
+                    <div class="keywords"><span class="badge badge-pill badge-light mr-2">#Ciclos</span><span class="badge badge-pill badge-light mr-2">#For</span><span class="badge badge-pill badge-light mr-2">#While </span></div>
+                    <div class="barra-dots mt-5"><img class="img-fluid" src="assets/images/header/icon_dots.svg" alt="alt" /></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="page-introduccion">
+    <div class="header-ecored">
+        <h2>1.3 Do while</h2>
+    </div>
+    <div class="jumbotron bg-white mb-0">
+        <p class="mb-5">El ciclo <b>do while</b> también es utilizado para ejecutar repetidamente unas instrucciones, difiere del <b>while</b> en el hecho de que con <b>do while</b> el bloque de instrucciones siempre va a ser ejecutado al menos una vez, dado que primero se lleva a cabo dicha ejecución y posteriormente se evalúa la condición; si se cumple, continúan ejecutándose las instrucciones hasta que no sea así, y si no se cumple, no se ejecutan más.</p>
+        <p>La sintaxis del ciclo <b>do while</b> es la siguiente:</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/dowhile.png" /></p>
+        <p class="mt-5">La condición adquiere un valor booleano que, al ser verdadero, se continúan ejecutando las sentencias que hay dentro de las llaves, y si es falso, pasa a la primera instrucción que se encuentre por fuera del <b>do while</b>.</p>
+        <p>Se ilustra a continuación, el proceso efectuado cuando se utiliza un bucle <b>do while</b>.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/bucle-dowhile.png" /></p>
+        <div class="subtitulo-guion my-5">
+            <h3>Ejemplos</h3>
+        </div>
+        <div class="jumbotron bg-brand-color-dark-secondary">
+            <p class="mb-0"> <strong>a. </strong>Solicitar al usuario que digite un número del 1 al 10 y mostrarlo en pantalla; se debe validar que el número ingresado si se encuentra dentro del rango indicado, en caso de que no lo esté, se pide nuevamente.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-1-1.png" /></p>
+        <p class="text-center"> Solución ejemplo a - do while</p>
+        <p class="my-5">Se declara la variable número que recibe el dato ingresado por el usuario, el do indica que se pida dicho dato al usuario, y en el while se valida si cumple con el rango requerido; cuando no lo cumple, se pide nuevamente el número, y cuando lo cumple, se muestra el número ingresado.</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>b. </strong>Se requiere un programa que solicite al usuario el ingreso de varios números y que calcule el promedio de estos cuando el número ingresado sea 0, dicho número no debe ser tenido en cuenta en la cantidad de datos para promediar.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-2-1.png" /></p>
+        <p class="text-center">Código ejemplo b – do while</p>
+        <p class="my-5">En la siguiente figura se observa la ejecución del ejemplo anterior.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-2-2.png" /></p>
+        <p class="text-center">Ejecución código ejemplo b – while</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>c. </strong>Se necesita un programa que solicite notas de estudiantes hasta que el valor ingresado sea 0, y posterior a ello muestre en pantalla cuántos obtuvieron una nota igual o superior a 6, y cuántos menor.</p>
+        </div>
+        <p class="my-5">Se declara la variable nota que recibe las notas ingresadas por el usuario y se utilizan dos contadores llamados cant1 y cant2 para almacenar el total de estudiantes que obtuvieron notas inferiores y superiores a 6.</p>
+        <p>En el do se solicita el ingreso de cada nota y por medio de un if se suma en cada contador respectivo la nota que haya sido ingresada, y en el while se indica que el ciclo debe terminar cuando se ingrese como nota el valor cero.</p>
+        <p>Finalmente se muestran los resultados que indican cuántos estudiantes obtuvieron notas superiores e inferiores a 6.</p>
+        <p>En la siguiente figura se observa el código de este ejemplo y luego su correspondiente ejecución.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-3-1.png" /></p>
+        <p class="text-center">Código ejemplo c – do while</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-3-2.png" /></p>
+        <p class="text-center">Ejecución ejemplo c – do while</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>d. </strong>Se desea un programa que solicite al usuario la contraseña de acceso y únicamente le dé la bienvenida al sistema cuando esta sea correcta.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-3/ej-4-1.png" /></p>
+        <p class="text-center">Solución ejemplo d - do while</p>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+<div class="page-header mb-5">
+    <div class="page-textura">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <h3 class="curso-subtitulo" id="curso-titulo-componente">Variables y estructuras de control en la programación orientada a objetos Java</h3>
+                    <h1 class="curso-titulo" id="curso-titulo-tema">Uso de ciclos de repetición en Java</h1>
+                    <div class="brand-line-primary"></div>
+                    <div class="keywords"><span class="badge badge-pill badge-light mr-2">#Ciclos</span><span class="badge badge-pill badge-light mr-2">#For</span><span class="badge badge-pill badge-light mr-2">#While </span></div>
+                    <div class="barra-dots mt-5"><img class="img-fluid" src="assets/images/header/icon_dots.svg" alt="alt" /></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="page-introduccion">
+    <div class="header-ecored">
+        <h2>1.2 While</h2>
+    </div>
+    <div class="jumbotron bg-white mb-0">
+        <p class="mb-5">El bucle <b>while</b> permite la ejecución de un bloque de instrucciones siempre y cuando la condición analizada sea verdadera, si en el análisis inicial la condición es falsa, el bloque de instrucciones no se ejecuta nunca. Es importante que dentro de dicho bloque de instrucciones se incluya una que haga variar el resultado de la condición para que esta pueda llegar a ser verdadera y se ejecuten las instrucciones, o bien, pueda convertirse en falsa y que el ciclo finalice.</p>
+        <p>La sintaxis del ciclo <b>while</b> es la siguiente:</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/while.png" /></p>
+        <p class="mt-5">Se puede apreciar que la condición adquiere un valor booleano que, al ser verdadero, se ingresa a las líneas de código contenidas en las llaves y se ejecutan, y si es falso, pasa a la primera instrucción que se encuentre por fuera del <b>while</b>.</p>
+        <p>Se ilustra a continuación, el proceso efectuado cuando se utiliza un bucle while.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/while.png" /></p>
+        <div class="subtitulo-guion my-5">
+            <h3>Ejemplos</h3>
+        </div>
+        <div class="jumbotron bg-brand-color-dark-secondary">
+            <p class="mb-0"> <strong>a. </strong>Se requiere un programa que pida al usuario un número entero e imprima todos los números existentes entre 0 y dicho número.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-1-1.png" /></p>
+        <p class="text-center">Código ejemplo a – while</p>
+        <p class="my-5">Se declara la variable a que hace las veces de variable de control en el while y la variable número que será el dato ingresado por el usuario; el programa entonces imprime los números desde 0, que es el valor de inicialización que se le dio a a, hasta el número indicado por el usuario, que para el ejemplo fue 4.</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>b. </strong>Se necesita encontrar el área de una esfera solicitando al usuario que ingrese el valor del radio; en caso de que el valor ingresado sea inferior o igual a cero, se debe devolver un mensaje y pedir nuevamente el dato.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-2-1.png" /></p>
+        <p class="text-center">Código ejemplo b – while</p>
+        <p class="my-5">Se declaran las variables radio y área, la primera es el valor ingresado por el usuario y la segunda para efectuar el cálculo cuando el valor del radio cumpla con lo indicado. </p>
+        <p>Si se ingresa como radio el valor 0, el programa pide nuevamente el dato, en caso contrario, el programa calcula el área; la ejecución se observa en la siguiente figura:</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-2-2.png" /></p>
+        <p class="text-center">Ejecución código ejemplo b – while</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>c. </strong>Se requiere un programa que pida al usuario la medida en centímetros del lado de un cuadrado y calcule su área, siempre y cuando el valor ingresado sea mayor que cero; en caso de que dicha condición no se cumpla, ya no se solicitarán más valores y se debe mostrar la cantidad de áreas que han sido calculadas.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-3-1.png" /></p>
+        <p class="text-center">Código ejemplo c – while</p>
+        <p class="my-5">Se declaran las variables contador, lado y área; la primera va a guardar la cantidad de veces que el área sea calculada, la segunda almacena el valor ingresado por el usuario y la tercera para efectuar el cálculo respectivo, cada que el lado cumpla con lo indicado. </p>
+        <p>En el while se indica que siempre que el valor ingresado por el usuario sea mayor a cero, se realice el cálculo, en caso contrario, el programa sale a la instrucción que hay inmediatamente después de terminar el while e imprime la cantidad de áreas que han sido calculadas. En la siguiente figura se puede observar la ejecución de este ejemplo.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-3-2.png" /></p>
+        <p class="text-center">Ejecución código ejemplo c – while</p>
+        <div class="jumbotron bg-brand-color-dark-secondary my-6">
+            <p class="mb-0"> <strong>d. </strong>Se requiere un programa que solicite al usuario un número entero y muestre en pantalla la tabla de multiplicar de dicho número.</p>
+        </div>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-4-1.png" /></p>
+        <p class="text-center">Código ejemplo d – while</p>
+        <p class="my-5">Se declaran las variables contador, resultado y número. La primera es la variable de control del while que indica que van a mostrarse los datos de la tabla desde el 1 hasta el 10, la segunda para efectuar el cálculo respectivo, y la tercera, recibe el valor ingresado por el usuario que determina la tabla que va a ser mostrada. </p>
+        <p>En el while se da la instrucción que se realice el cálculo hasta 10, y posteriormente se muestra la tabla. En la siguiente figura se puede observar la ejecución de este ejemplo.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/tema-1-2/ej-4-2.png" /></p>
+        <p class="text-center">Ejecución código ejemplo d – while</p>
+    </div>
+</div>

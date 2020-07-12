@@ -1,0 +1,33 @@
+[
+  {
+    "letter": "B",
+    "terms": [
+      {
+        "title": "Bucle:",
+        "desciption": "Nombre con el cual también se conocen los ciclos de repetición."
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "terms": [
+      {
+        "title": "Ciclo infinito:",
+        "desciption": "Ciclo de repetición cuya variable de control no cambió de estado y por lo tanto el ciclo nunca finalizó."
+      }
+    ]
+  },
+  {
+    "letter": "V",
+    "terms": [
+      {
+        "title": "Valor booleano:",
+        "desciption": "Tipo de valor que toman algunas variables, definido como falso o verdadero."
+      },
+      {
+        "title": "Variable de control:",
+        "desciption": "Valor que garantiza que cada ciclo de repetición pueda tener un final."
+      }      
+    ]
+  }
+]
